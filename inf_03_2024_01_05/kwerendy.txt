@@ -1,0 +1,4 @@
+1. SELECT uslugi.nazwa, uslugi.cena from uslugi where uslugi.cena >= 50;
+2. SELECT AVG(uslugi.cena), COUNT(uslugi.id) FROM uslugi WHERE uslugi.rodzaj LIKE "1" AND "2";
+3. CREATE USER 'kosmetyczka'@'localhost' IDENTIFIED BY 'Kosmet34';
+4. GRANT INSERT, SELECT ON table salon.uslugi TO USER "kosmetyczka";

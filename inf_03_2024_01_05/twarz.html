@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl7.css">
+    <script src="skrypt.js"></script>
+    <title>Salon kosmetyczny</title>
+</head>
+<body>
+
+
+    
+
+    <div class="lewy1">
+        <h2>Nasza oferta</h2>
+        <ol>
+            <li><a href="twarz.html">Oczyszczanie twarzy</a><ul><li>Peeling</li><li>Maska</li></ul></li>
+            <li>Masaż</li>
+            <li>Makijaż</li>
+        </ol>
+        <a href="index.html" id="strona_glowna">Strona główna</a>
+    </div>
+
+
+    
+    <div class="prawy1">
+        <h1>Usługi kosmetyczne</h1>
+    </div>
+
+
+    <div class="prawy2">
+    <h3>Kalkulator ceny wizyty</h3>
+    <form id="formularz">
+        <input type="checkbox" id="peeling" value="45">Peeling <br>
+        <input type="checkbox" id="maska" value="30">Maska <br>
+        <input type="checkbox" id="masaz" value="20">Masaż twarzy <br>
+        <input type="checkbox" id="makijaz" value="50">Makijaż <br>
+        <button type="button" onclick="obliczCene()">Oblicz cenę</button>
+    </form>
+    <p id="wynik"></p>
+    </div>
+    
+
+    <div class="lewy2">
+        <img src="obraz1.jpg" alt="Personel">
+    </div>
+
+
+    <div class="stopka">
+        <p>Autor: Maciej Stieler</p>
+    </div>
+
+</body>
+</html>
