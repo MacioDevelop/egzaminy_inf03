@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl7.css">
+    <script src="main.js"></script>
+    <title>Galeria</title>
+</head>
+<body>
+    <div class="baner">
+        <h2>Galeria miejsc ciekawych</h2>
+    </div>
+
+    <div class="glowny">
+        <img src="lanzarotte.jpg" alt="galeria" id="mainImage">
+    </div>
+
+    <div class="lewy">
+        <h3>Przeglądaj zdjęcia</h3>
+        <table>
+                <img src="lanzarotte.jpg" alt="lanzarotte" onclick="showImage(this)">
+                <img src="pekin.jpg" alt="pekin" onclick="showImage(this)">
+                <img src="serengeti.jpg" alt="serengeti" onclick="showImage(this)">
+                <img src="wenecja.jpg" alt="wenecja" onclick="showImage(this)">
+                <img src="tajlandia.jpg" alt="tajlandia" onclick="showImage(this)">
+        </table>
+    </div>
+
+    <div class="prawy">
+        <h3>Obrazy w naszej galerii</h3>
+        <table>
+            <tr>
+                <td>Europa</td>
+                <td>Azja</td>
+                <td>Afryka</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <p class="polub">Polub nas</p>
+        <img src="icon-off.png" id="toggleIcon" onclick="toggleIcon()"> <br>
+        <a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
+    </div>
+
+    <div class="stopka">
+        <p>Autor: Maciej Stieler</p>
+    </div>
+
+</body>
+</html>
