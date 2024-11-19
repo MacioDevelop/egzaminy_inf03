@@ -1,0 +1,4 @@
+1. SELECT imie, nazwisko from autorzy ORDER by nazwisko ASC;
+2. INSERT INTO czytelnicy (imie, nazwisko, kod) VALUES ("Ewa", "Kowalska", "145321");
+3. SELECT tytul from ksiazki INNER JOIN kategorie on kategorie.id WHERE kategorie.nazwa = "dramat";
+4. SELECT tytul FROM ksiazki inner join czytelnicy on czytelnicy.id WHERE czytelnicy.id ="2";
