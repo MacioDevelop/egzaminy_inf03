@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styl.css">
+    <title>Efekty obrazu</title>
+</head>
+<body>
+    <div class="baner">
+        <h2>Efekty na obrazach</h2>
+    </div>
+
+    <div class="blok1">
+        <img src="pszczola.jpg" alt="pszczoła na fioletowym kwiatku" id="mainImage">
+        <br>
+        <input type="radio" id="1" name="effect"> Blur <br>
+        <input type="radio" id="2" name="effect"> Sepia <br>
+        <input type="radio" id="3" name="effect"> Negatyw <br>
+        <button type="submit" onclick="ChooseEffect()">Zastosuj</button>
+    </div>
+
+    <div class="blok2">
+        <img src="pomarancza.jpg" alt="drzewo pomarańczy" id="pomarancza">
+        <br>
+        <button onclick="applyFilter(0)" id="kolory" class="kolory">Kolorowy</button> 
+        <button onclick="applyFilter(100)" class="bez_kolorow" id="bez_kolorow">Czarno-biały</button> 
+        <br>
+    </div>
+    
+
+    <div class="blok3">
+        <img src="owoce.jpg" alt="Kosz pełen owoców" id="owoce">
+        <input type="range" name="suwak" id="opacitySlider" min="0" max="100" value="100">
+        <br>
+        <button type="submit" onclick="applyOpacity()">Zastosuj</button>
+    </div>
+    
+    <div class="blok4">
+        <img src="zolw.jpg" alt="Żółw w wodzie" id="zolw">
+        <input type="range" name="suwak" id="brightnessSlider" min="0" max="250" value="100">
+        <br>
+        <button onclick="applyBrightness()">Zastosuj</button>
+    </div>
+    
+
+    <div class="stopka">
+        <p><a href=" http://www.css.com/" target="_blank">Zobacz inne efekty obrazu</a></p> <br>
+        <p>Stronę wykonał: </p>
+    </div>    
+
+</body>
+</html>

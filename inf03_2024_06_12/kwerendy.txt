@@ -1,0 +1,4 @@
+1. SELECT imie, pensja from pracownicy where staz < 5;
+2. SELECT AVG(pracownicy.pensja) as srednia_pensja, stanowiska.nazwa FROM pracownicy INNER join stanowiska on pracownicy.stanowiska_id = stanowiska.id GROUP by stanowiska.nazwa;
+3. SELECT DISTINCT imie, nazwisko, pensja FROM pracownicy WHERE pensja = (SELECT MAX(pracownicy.pensja) from pracownicy);
+4. UPDATE pracownicy SET pracownicy.staz = pracownicy.staz + 1;
