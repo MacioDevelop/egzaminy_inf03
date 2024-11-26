@@ -1,0 +1,78 @@
+* {
+    font-family: Cambria;
+}
+body {
+    background-color: linen;
+}
+.boczny, .baner, .stopka {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+.stopka{
+    clear: both;
+}
+.boczny{
+    width: 25%;
+    height: 510px;
+    margin: 0, 1%;
+    box-shadow: 4px dimgray;
+    float: left;
+}
+.baner{
+    width: 73%;
+    height: 80px;
+    float: left;
+}
+.glowny{
+    width: 73%;
+    height: 400px;
+}
+button{
+    background-color: steelblue;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 130%;
+    border: none;
+}
+button:hover{
+    background-color: navy;
+}
+.klient, .adres, .kontakt{
+    background-color: lightblue;
+    margin-right: 80px;
+    padding: 10px;
+    float: left;
+}
+.postep{
+    background-color: lightgray;
+    width: 73%;
+    margin-bottom: 10px;
+    float: left;
+}
+.pasek{
+    background-color: navy;
+    width: 4%;
+    height: 30px;
+}
+table{
+    width: 100%;
+    border: 1px navy dashed;
+}
+.postep {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+}
+
+.postep .pasek {
+    width: 0;
+    height: 100%;
+    background-color: navy;
+}
+
+.glowny > div.active {
+    display: block;
+}

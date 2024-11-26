@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <script src="main.js"></script>
+    <title>Sklep - rejestracja</title>
+</head>
+<body>
+    <div class="boczny">
+        <img src="obraz.png" alt="promocje">
+        <h2>Sprawdź promocje</h2>
+        <table>
+        <tr>
+            <th>co?</th>
+            <th>ile taniej?</th>
+        </tr>
+        <tr>
+            <td>ubrania</td>
+            <td>15%</td>
+        </tr>
+        <tr>
+            <td>buty</td>
+            <td>25%</td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="baner">
+        <h1>Zarejestruj się w sklepie</h1>
+    </div>
+
+    <div class="glowny">
+        <button class="wybor" onclick="Choose(this)" id="klient">Klient</button>
+        <button class="wybor" onclick="Choose(this)" id="adres">Adres</button>
+        <button class="wybor" onclick="Choose(this)" id="kontakt">Kontakt</button>
+
+        <form action="rejestracja.html">
+            <div class="klient" style="display: block;">
+                <p>Imię</p>
+                <input type="text" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+                <p>Nazwisko</p>
+                <input type="text" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+                <p>Data urodzenia</p>
+                <input type="date" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+            </div>
+            <div class="adres" style="display: none;">
+                <p>Ulica</p>
+                <input type="text" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+                <p>Numer</p>
+                <input type="number" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+                <p>Miasto</p>
+                <input type="text" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+            </div>
+            <div class="kontakt" style="display: none;">
+                <p>Numer komórkowy</p>
+                <input type="tel" placeholder="Wpisz dane.." onblur="UpdateProgress()">
+                Akceptuję RODO <input type="checkbox">
+                <button onclick="Zatwierdz(event)">Zatwierdź dane</button>
+            </div>
+            
+        </form>
+
+    </div>
+
+    <div class="postep">
+        <div class="pasek"></div>
+    </div>
+
+    <div class="stopka">
+        <h4>Rejestrację do sklepu wykonał: Maciej Stieler</h4>
+    </div>
+</body>
+</html>
