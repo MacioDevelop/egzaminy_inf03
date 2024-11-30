@@ -1,0 +1,42 @@
+* {
+    font-family: Georgia;
+    text-align: center;
+    margin: 0;
+}
+.baner, .stopka{
+    background-color: #4ba3c7;
+    color: white;
+    height: 80px;
+    font-size: 120%;
+}
+.stopka{
+    clear: both;
+}
+.prawy, .lewy{
+    background-color: #efefef;
+    height: 400px;
+    width: 25%;
+    float: left;
+}
+.srodek{
+    background-color: #90caf9;
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+table{
+    margin-left: 10px;
+    width: 90%;
+    border: 1px solid #90caf9;
+}
+td, th{
+    padding: 5px;
+    border: 1px solid #90caf9;
+}
+table td:hover{
+    color: #90caf9;
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
