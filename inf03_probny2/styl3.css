@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: Verdana;
+}
+.baner1{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+    float: left;
+}
+.baner2{
+    float: left;
+    background-color: #29434E;
+    color: white;
+    width: 30%;
+    height: 70px;
+}
+.filmy, .polecamy{
+    height: 320px;
+    background-color: #b0bec5;
+}
+.stopka{
+    background-color: #29434e;
+    color: white;
+}
+.lista {
+    display: block; 
+    overflow-y: auto; 
+    max-height: 280px; 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+h3{
+    background-color: #546e7a;
+    color: white;
+    margin: 0;
+}
+h4{
+    text-align: center;
+    margin: 0;
+}
