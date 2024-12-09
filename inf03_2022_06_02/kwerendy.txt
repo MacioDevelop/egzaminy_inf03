@@ -1,0 +1,5 @@
+1. SELECT marka, rocznik from samochody WHERE samochody.kolor = "niebieski";
+2. SELECT COUNT(samochody.marka = "Opel" AND samochody.marka = "Toyota") FROM samochody WHERE samochody.stan = "bardzo dobry";
+3. UPDATE samochody set samochody.stan = "dobry" WHERE samochody.rocznik > 2004;
+4. CREATE USER "jan" Identified by "janKowalski1@";
+5. GRANT ALL PRIVILEGES ON samochody TO "jan";
