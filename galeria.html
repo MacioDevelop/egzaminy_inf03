@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Biuro turystyczne</title>
+</head>
+<body>
+    <header class="baner">
+        <h1>Zwiedzamy Polskę</h1>
+    </header>
+
+    <div class="lewy">
+        <button onclick="move('prev')" id="lewy">&lt;</button>
+    </div>
+    
+    <div class="srodek">
+        <img src="1.jpg" alt="Aktywne zdjęcie" id="main">
+    </div>
+    
+    <div class="prawy">
+        <button onclick="move('next')" id="prawy">&gt;</button>
+    </div>
+    
+    <div class="miniatury">
+        <img src="1.jpg" alt="Gdańsk" class="zdjecie">
+        <img src="2.jpg" alt="Kraków" class="zdjecie">
+        <img src="3.jpg" alt="Niedzica" class="zdjecie">
+        <img src="4.jpg" alt="Pieniny" class="zdjecie">
+        <img src="5.jpg" alt="Szklarska Poręba" class="zdjecie">
+        <img src="6.jpg" alt="Tatry" class="zdjecie">
+        <img src="7.jpg" alt="Wrocław" class="zdjecie">
+    </div>
+
+    <footer class="stopka">
+        <h3>Autorem galerii jest:</h3>
+        <p>Maciej Stieler</p>
+        <a href="http://pixaby.com" target="_blank">Więcej zdjęć</a>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

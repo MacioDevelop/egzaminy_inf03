@@ -1,52 +1,52 @@
 * {
     font-family: Georgia;
+    color: white;
     margin: 0;
 }
-.baner1, .baner2{
-    background-color: navy;
-    color: white;
+.baner, .stopka{
+    background-color: maroon;
     text-align: center;
-    height: 100px;
-    width: 50%;
-    float: left;
-}
-.menu{
-    background-color: navy;
-    padding: 20px;
-}
-.form{
-    color: silver;
-    margin: 50px;
-}
-.form:hover{
-    color: white;
-    text-decoration: underline;
-}
-.lewy, .prawy{
-    background-color: azure;
-    height: 550px;
-}
-.lewy {
-    width: 70%;
-    float: left;
-}
-.prawy{
-    width: 30%;
-    float: left;
+    padding: 2px;
 }
 .stopka{
-    background-color: navy;
-    color: white;
     clear: both;
 }
-table{
-    border: 1px navy solid;
-    margin: auto;
+.lewy, .srodek, .prawy{
+    float: left;
+    background-color: lightsalmon;
+    height: 527px;    
+}
+.lewy, .prawy {
+    width: 15%;
+}
+.srodek{
     width: 70%;
 }
-td:hover{
-    background-color: skyblue;
+.miniatury{
+    background-color: maroon;
 }
-.obraz2{
-    width: 90%;
+button{
+    background-color: lightsalmon;
+    color: maroon;
+    border: none;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+.zdjecie{
+    height: 70px;
+    animation-duration: 4s;
+    from { margin-left: 50px;}
+    to { margin-left: 0px;}
+}
+#main{
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+#main:hover{
+    animation-duration: 5s;
+    from { size: 100%;};
+    to { size: 120%;};
 }
