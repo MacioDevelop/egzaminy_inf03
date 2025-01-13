@@ -1,5 +1,4 @@
-1. SELECT wycieczki.miejsce, wycieczki.liczbaDni FROM wycieczki where wycieczki.cena < 1000;
-2. SELECT AVG(wycieczki.cena) as "średnia cena", wycieczki.liczbaDni from wycieczki group by wycieczki.liczbaDni;
-3. SELECT wycieczki.miejsce, zdjecia.nazwa from wycieczki join zdjecia on zdjecia.Wycieczki_id = wycieczki.id where wycieczki.cena > 500;
-4. CREATE USER 'Ewa'@'localhost';
-GRANT ALL PRIVILEGES ON `wycieczki1`.* TO 'Ewa'@'localhost' WITH GRANT OPTION;
+1. INSERT INTO rezerwacje (nr_stolika, data_rez, liczba_osob, telefon) VALUES ("1", "2017-07-04", "4", "111222333");
+2. SELECT nazwa, cena from dania where typ = 2;
+3. SELECT nazwa from dania where dania.cena < 15;
+4. UPDATE pracownicy SET stanowisko = "barman" WHERE stanowisko = "kelner";
